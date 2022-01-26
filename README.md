@@ -36,7 +36,7 @@ There are three routes:
 
  - GET  /api --> This is unprotected route
  - POST /api/login --> This route will generate a token for user Admin, you can decode the token at: https://jwt.io.
-- GET /api/protected --> When user passes the token along with bearer <token> in Headers and try to access the route user will be able to access the route and user data will be displayed.
+- GET /api/protected --> When user passes the token along with `bearer` {token} in Headers and try to access the route user will be able to access the route and user data will be displayed.
 
 | Key             |   Value     | 
 | :--------       | :-------    | 
